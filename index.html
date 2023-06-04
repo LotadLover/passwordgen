@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Generator</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" style="padding-right: 15px">Generator</a></li>
+        <li><a href="strength.html">Password Strength</a></li>
+      </ul>
+    </ul>
+  </nav>
+  </header>
+  
+  <div class = "container" style="margin-top: 150px; margin-left: 200px; margin-right: 200px;">
+    <h1 style="margin-top: 50px;">Generate a Secure Password</h1>
+    <form style="margin-top: 100px; margin-bottom: 100px;" id="generatorform">
+      <label for="password-length">Password Length:  </label>
+      <select id="password-length" class="dropdowns"name="password-length">
+        <option class="dropoptions" value="8">8</option>
+        <option class="dropoptions" value="9">9</option>  
+        <option class="dropoptions" value="10">10</option>
+        <option class="dropoptions" value="11">11</option>
+        <option class="dropoptions" value="12">12</option>
+        <option class="dropoptions" value="13">13</option>
+        <option class="dropoptions" value="14">14</option>
+        <option class="dropoptions" value="15">15</option>
+        <option class="dropoptions" value="16">16</option>
+        <option class="dropoptions" value="17">17</option>
+        <option class="dropoptions" value="18">18</option>
+        <option class="dropoptions" value="19">19</option>
+        <option class="dropoptions" value="20">20</option>
+      </select>
+      
+      <label style="padding-left: 40px;">Memorable Password?  </label>
+      <select id="memorable-password" class="dropdowns" name="memorable-password">
+        <option class="dropoptions" value="yes">Yes</option>
+        <option class="dropoptions" value="no">No</option>  
+      </select>
+
+      <button type="submit" style="margin-left: 40px;">Generate Password</button>
+    </form>
+    <h3>Your New Password:</h3>
+    <p id="output"></p>
+    <button class="copybutton" style="margin-left:420px; margin-bottom: 100px;"  onclick="copy()">copy</button> 
+  </div>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>

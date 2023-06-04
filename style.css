@@ -1,0 +1,173 @@
+body {
+    background-color: #8fd2eb;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* .form2{
+    padding: 5px;
+    background-color: #8fd2eb;
+} */
+.button {
+    background-color: rgb(250, 150, 132);
+}
+.textbox{
+    color: #000000;
+    font-family: monospace;
+    width: 350px;
+    height: 45px;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E6FCED;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(52, 52, 52, 0.471);
+}
+.containertext{
+    position: relative;
+    margin-left: 400px;
+    margin-right: 500px;
+    background-color: #E6FCED;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(52, 52, 52, 0.471);
+}
+header {
+    align-items: center;
+    margin-bottom: -35.5px;
+    background-color: #3940537c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header nav {
+    text-align: center;
+}  
+
+header nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+header nav ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 70%;
+    border-left: 2px solid #000000;
+}
+
+header nav ul li a {
+    display: block;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Courier';
+}
+
+nav {
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+
+.center-container {
+  justify-content: center;
+  display: flex;
+}
+
+label {
+    font-family: 'Courier';
+}
+
+h1 {
+    font-family: 'Courier';
+}
+
+h3 {
+    font-family: 'Courier';
+}
+
+button {
+    border: 2px solid rgb(19, 19, 19);
+    background-color: rgba(198, 198, 198, 0.562);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;  
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    transition-duration: 0.6s;
+    cursor: pointer;
+    
+  }
+
+button:hover {
+    background-color: #9DD4AB;
+}
+
+.dropdowns {
+    background-color:#8fd2eb;
+    padding: 7px;
+    font-family: 'courier';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copybutton {
+    border: 2px solid rgb(19, 19, 19);
+    background-color: rgba(198, 198, 198, 0.562);
+    color: white;
+    position: relative;
+    margin-right: 420px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;  
+    text-decoration: none;
+    font-size: large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    transition-duration: 0.5s;
+    align-content: center;
+    cursor: pointer;
+
+
+
+
+  }
+
+.copybutton:hover {
+    background-color: #C1E1C1;
+}
+
+.dropoptions {
+    font-weight: bold;
+}
+
+.outputtext {
+    font-family: 'courier';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.toggle-eye {
+    position: relative;
+    right: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 35px;
+  }
